@@ -13,5 +13,5 @@ use Drupal\Core\Form\FormStateInterface;
  */
 function cir_form_install_configure_form_alter(&$form, FormStateInterface $form_state) {
   // Add a placeholder as example that one can choose an arbitrary site name.
-  $form['site_information']['site_name']['#attributes']['placeholder'] = t('cir');
+  $form['site_information']['site_name']['#attributes']['placeholder'] = t('Can I Rent');
 }

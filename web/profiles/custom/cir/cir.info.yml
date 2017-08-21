@@ -42,7 +42,9 @@ dependencies:
   - options
   - path
   - page_cache
+  - page_manager
   - pathauto
+  - panels
   - taxonomy
   - search
   - shortcut
